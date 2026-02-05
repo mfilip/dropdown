@@ -1,0 +1,36 @@
+{
+  "name": "input-dropdown",
+  "version": "1.0.0",
+  "description": "Simple dropdown positioning library for input/textarea elements",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "demo": "npx serve ."
+  },
+  "keywords": [
+    "dropdown",
+    "positioning",
+    "input",
+    "textarea",
+    "autocomplete"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "serve": "^14.2.0"
+  }
+}
