@@ -1,5 +1,5 @@
 {
-  "name": "input-dropdown",
+  "name": "@marcinfilip/input-dropdown",
   "version": "1.0.0",
   "description": "Simple dropdown positioning library for input/textarea elements",
   "main": "dist/index.js",
