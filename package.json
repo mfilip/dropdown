@@ -28,6 +28,14 @@
     "textarea",
     "autocomplete"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinfilip/dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcinfilip/dropdown/issues"
+  },
+  "homepage": "https://github.com/marcinfilip/dropdown#readme",
   "license": "MIT",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
